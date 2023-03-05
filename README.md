@@ -16,7 +16,7 @@
 
 This project is using Qwik with [QwikCity](https://qwik.builder.io/qwikcity/overview/). QwikCity is just a extra set of tools on top of Qwik to make it easier to build a full site, including directory-based routing, layouts, and more.
 
-### Project structure
+### Project structure Esdras Khan
 
 
 ```
@@ -36,19 +36,18 @@ This project is using Qwik with [QwikCity](https://qwik.builder.io/qwikcity/over
 │   ├── components/
 │   │   ├── atoms/
 │   │   ├── core/
+│   │   ├── dumbs/
 │   │   ├── icons/
+│   │   ├── stores/
 |   |   └── widgets/
-|   |       ├── Header.astro
-|   |       ├── Footer.astro
+|   |       ├── Header
+|   |       ├── Footer
 |   |       └── ...
 │   ├── content/
-│   |   ├── blog/
-│   |   |   ├── post-slug-1.md
-│   |   |   ├── post-slug-2.md
-│   |   |   └── ...
+
 │   ├── routes/
-│   |   ├── blog/
-│   |   ├── index.astro
+│   |   ├── Routes Hierarchy
+│   |   ├── index
 |   |   ├── layout.tsx
 |   |   └-- service-worker.ts
 │   ├── config.mjs
@@ -63,6 +62,8 @@ This project is using Qwik with [QwikCity](https://qwik.builder.io/qwikcity/over
 - `src/routes`: Provides the directory based routing, which can include a hierarchy of `layout.tsx` layout files, and an `index.tsx` file as the page. Additionally, `index.ts` files are endpoints. Please see the [routing docs](https://qwik.builder.io/qwikcity/routing/overview/) for more info.
 
 - `src/components`: Recommended directory for components.
+- `src/components/dumbs`: Recommended directory for components dumbs.
+
 
 - `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
 
