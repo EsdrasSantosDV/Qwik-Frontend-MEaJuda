@@ -1,6 +1,9 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { MainEnej } from "~/components/dumbs/MainEnej";
+import { MainHistory } from "~/components/dumbs/MainHistory";
+import { MainStats } from "~/components/dumbs/MainStats";
+import { MainWhatMej } from "~/components/dumbs/MainWhatMej";
 
 
 
@@ -11,6 +14,9 @@ export default component$(() => {
     <>
     
       <MainEnej></MainEnej>
+      <MainWhatMej></MainWhatMej>
+      <MainHistory></MainHistory>
+      <MainStats></MainStats>
 
 
     </>
