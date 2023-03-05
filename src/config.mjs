@@ -1,8 +1,8 @@
 export const SITE = {
-  name: "MeaJuda",
+  name: "MEaJuda",
 
   title:
-    "MeaJuda",
+    "MEaJuda",
   description:
     "MEaJuda - Sistema de Negociações para o MEJ.",
 

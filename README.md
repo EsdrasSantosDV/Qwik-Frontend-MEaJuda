@@ -1,6 +1,6 @@
-# MeaJuda
+# MEaJuda
 
-**MeaJuda** It is a portfolio software produced by Esdras Santos and Emanuelle Trindade using **[Qwik](https://qwik.builder.io/) + [Tailwind CSS](https://tailwindcss.com/)**. 
+**MEaJuda** It is a portfolio software produced by Esdras Santos and Emanuelle Trindade using **[Qwik](https://qwik.builder.io/) + [Tailwind CSS](https://tailwindcss.com/)**. 
 ## Figma
 <img src="./screenshot.jpg"  alt="">
 
