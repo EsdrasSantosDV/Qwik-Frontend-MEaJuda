@@ -10,14 +10,14 @@ import { srcEnej as placeholder } from "~/assets/images/foto-enej.png?width=400&
 export const MainEnej = component$(() => {
   return (
     <>
-      <div class="relative m-auto max-w-4xl">
+      <div class="flex m-auto max-w-6xl">
         <picture>
           <source srcSet={srcsetAvif} type="image/avif" />
           <source srcSet={srcsetWebp} type="image/webp" />
           <img
             src={placeholder}
-            class="mx-auto w-full rounded-md md:h-full drop-shadow-2xl bg-gray-400 dark:bg-slate-700"
-            alt="Qwind Hero Image (Cool dog)"
+            class="mx-auto w-full  md:h-full drop-shadow-2xl bg-gray-400 dark:bg-slate-700"
+            alt="Enej"
             loading="eager"
             decoding="async"
           />
